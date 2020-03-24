@@ -1,0 +1,128 @@
+body{
+    background-image: url(images/indexbg.jpg);
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+h1{
+    color: white;
+    font-weight: bold;
+    font-size: 5.8rem;
+    animation-name: animate;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    width: 50%;
+    font-family: 'Sedgwick Ave Display', cursive;
+}
+
+h4{
+    color: #fff;
+    font-size: 0.8rem;
+    font-family: 'Arvo', serif;
+    
+}
+
+p{
+    color: white;
+    font-size: 1.2rem;
+    margin: 20px 0;
+    width: 30%;
+    font-family: 'Arvo', serif;
+
+}
+form{
+    margin-top: 4rem;
+    font-family: monospace;
+}   
+
+.input{
+    border-width: 3px;
+    border-style: dotted;
+    border-color: white;
+    border-radius: 0;
+    background: transparent;
+    
+}
+
+
+
+
+.navbar-brand{
+    font-size: 1.5rem;
+    font-family: 'Yesteryear', cursive;
+}
+
+
+
+.container-fluid{
+    margin-top: 3.8rem;
+    width: 60%;
+    text-align: left;
+    
+}
+
+#footer{
+    text-align: center;
+    
+}
+
+
+.socials{
+    height: 1.5rem;
+    width: 1.5rem;
+    filter: invert(100%);
+}
+
+
+
+
+
+@media (max-width : 900px){
+    body{
+        padding-left: 1rem;
+    }
+    h1{
+        font-size: 3.5rem;
+    }
+
+    h4{
+        font-size: 0.6rem;
+    }
+    form{
+        margin: auto ;
+    }
+    hr{
+        margin: 5rem auto 5rem 4rem;
+        
+    }
+    .container-fluid{
+        margin-top: 5rem;
+        margin-left: 0.8rem;
+        width: 90%;
+
+    }
+    
+}
+
+@keyframes animate{
+    0%{
+        color: #fff;
+    }
+    20%{
+        color: #ff9100;
+    }
+    40%{
+        color: #ff3d00;
+    }
+    60%{
+        color: #ff3d00;
+    }
+    80%{
+        color: #ff9100;
+    }
+    100%{
+        color: #fff;
+    }
+}
+   
