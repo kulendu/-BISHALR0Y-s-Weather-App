@@ -31,7 +31,7 @@
     <div class="container-fluid">
       <h1>We adapt to any weather!</h1>
       <p>Worried about the weather? Check the weather of your location through our web application</p>
-        <form action = "/weather" method = "POST">
+        <!-- <form action = "/weather" method = "POST">
           <div class="input-group input-group-lg">
             <input type = "text" class="form-control input" placeholder=" Enter the name of your city/state " name = "city">
 
@@ -40,7 +40,22 @@
           </div>
             
           </div>
-         </form>
+         </form> -->
+    </div>
+
+    <!-- ########### New custom modified animated button ####### -->
+    <div id="cover">
+      <form method="POST" action="/weather">
+        <div class="tb">
+          <div class="td"><input type="text" placeholder="   City Name" name="city"></div>
+          <div class="td" id="s-cover">
+            <button type="submit"> 
+              <div id="s-circle"></div> 
+              <span></span> 
+            </button>
+          </div>
+        </div>
+      </form>
     </div>
     
     <section id = "footer">
